@@ -1,0 +1,15 @@
+Known Bugs:
+
+- Editing "Number of Points" for some cloud types may cause the program to crash.
+	- This includes primarily the hemi-ellipses.
+	
+- Editing the "Number of Points" for some cloud types changes their spawn location.
+
+- Camera up-down rotation inverts on the other side: negative looking into positive Z.
+
+- Object positions may change slightly (round up/down) during select-deselect. 
+	- This has to do with the way the location's stored.
+	
+- Known memory issue. Not every pointer structure is cleaned clearly. 
+
+- May be other misc. bugs not clear. 
